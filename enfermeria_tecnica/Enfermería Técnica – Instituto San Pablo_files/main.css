@@ -641,7 +641,7 @@ body {
   color: #333;
   font-family: "Nunito", sans-serif !important;
   font-size: 35px !important;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.22;
   margin: 0px;
 }
@@ -14345,14 +14345,14 @@ textarea:focus {
     padding-top: 31px;
   }
   #menu-menu-principal .g4_wrap_arrow a {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: #333;
-    display: block;
-    font-family: "Nunito-Bold", sans-serif;
-    font-size: 15px;
-    padding-bottom: 31px;
-    padding-top: 31px;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    color: #333 !important;
+    display: block !important;
+    font-family: "Nunito-Bold", sans-serif !important;
+    font-size: 15px !important;
+    padding-bottom: 31px !important;
+    padding-top: 31px !important;
   }
   #menu-menu-principal .g4_arrow {
     position: absolute;
@@ -14361,11 +14361,7 @@ textarea:focus {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  #menu-menu-principal .g4_arrow:after {
-    content: "\e914";
-    font-family: "icomoon" !important;
-    font-size: 6px;
-  }
+ 
   #menu-menu-principal .g4_wrap_arrow {
     align-items: center;
     -webkit-box-align: center;
@@ -15242,7 +15238,7 @@ body.active_search {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .menu-sidebar-cnt .g4_arrow:after,
+
   .menu-sidebar-cnt .g4_arrows:after {
     content: "\e914";
     font-family: "icomoon" !important;
