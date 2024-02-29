@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.bg{
+    background: gainsboro;
+    padding: 15px;
+}
+
+.header{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid salmon; */
+    padding: 10px 0 10px 0;
+}
+
+.header-div-right{
+    display: flex;
+    /* border: solid black; */
+    gap: 40px;
+    align-items: center;
+}
+
+.header-div-right>div>a{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.h_action_link>ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.h_action_link>ul>li>a{
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.h_action_link_intranet{
+    border: solid #6c04f4 1px;
+    padding: 17px 48px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.h_action_link_intranet>a>span{
+    color: #6c04f4;
+    font-weight: bold;
+}
+
+.h_action_link_admision{
+    background-color: #6c04f4;
+    padding: 17px 48px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.h_action_link_admision:hover{
+    
+}
+
+.h_action_link_admision>a>span{
+    color: white;
+}
