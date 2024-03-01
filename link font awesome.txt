@@ -8,3 +8,11 @@ link: font awesome
 <i class="fa-brands fa-youtube"></i>
 <i class="fa-brands fa-linkedin-in"></i>
 <i class="fa-brands fa-twitter"></i>
+
+<i class="fa-solid fa-download"></i>
+
+<i class="fa-solid fa-chevron-right" style="font-size: 12px;"></i>
+
+cambiar header (h_bottom)
+	       (menu-sidebar-cnt)
+ruta de imagen 
